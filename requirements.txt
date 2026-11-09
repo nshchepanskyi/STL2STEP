@@ -1,0 +1,8 @@
+# Tested with Python 3.12 on Windows.
+cadquery-ocp==8.0.1.1.0
+numpy==2.5.4
+scipy==1.18.1
+# Automatic mesh repair
+pymeshlab==2025.7.post1
+# Desktop viewer
+pywebview==6.2.1

@@ -5,9 +5,11 @@
 
 # logs, reports, scratch text
 *.txt
+!requirements.txt
 *.log
 
 # python
+.venv/
 __pycache__/
 *.pyc
 

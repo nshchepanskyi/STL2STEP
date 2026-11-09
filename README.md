@@ -32,6 +32,17 @@ triangles.
 
 Requires Python 3.9 or later.
 
+For the full application, including mesh repair and the desktop viewer, use
+Python 3.12 (tested on Windows) and the pinned dependencies:
+
+```bash
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv\Scripts\python.exe viewer/server.py
+```
+
+The commands above are for Windows. For a minimal installation:
+
 ```bash
 pip install cadquery-ocp numpy scipy pymeshlab
 ```
